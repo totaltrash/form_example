@@ -31,3 +31,6 @@ config :logger, level: :warning
 
 # Initialize plugs at runtime for faster test compilation
 config :phoenix, :plug_init_mode, :runtime
+
+# Ensure Ash doesn't spawn tasks during tests when executing requests
+config :ash, :disable_async?, true
