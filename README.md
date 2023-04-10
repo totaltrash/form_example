@@ -4,7 +4,7 @@ An example of building a one-to-many form using [AshPhoenix.Form](https://ash-hq
 
 ![Example](https://raw.githubusercontent.com/totaltrash/form_example/master/artifacts/screenshot.png?raw=true)
 
-I was inspired by [this excellent post by Benjamin Milde](https://kobrakai.de/kolumne/one-to-many-liveview-form) which describes using Ecto changesets to add and remove lines to a one-to-many form, and the form validation and submission. I wanted to build an equivalent form using `AshPhoenix.Form`. Ash's mantra is to "model your domain, derive the rest", and this example shows how modelling relationships in your resources can then be used by tools such as `AshPhoenix.Form` to make light work of adding and removing nested forms, and handling form validation and submission.
+I was inspired by [this excellent post by Benjamin Milde](https://kobrakai.de/kolumne/one-to-many-liveview-form) which describes using Ecto changesets to add and remove lines to a one-to-many form. I wanted to build an equivalent form using `AshPhoenix.Form`. Ash's mantra is to "model your domain, derive the rest", and this example shows how modelling relationships in your resources can then be used by tools such as `AshPhoenix.Form` to make light work of adding and removing nested forms, and handling form validation and submission.
 
 ## Model your domain
 
