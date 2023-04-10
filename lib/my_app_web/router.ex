@@ -20,6 +20,8 @@ defmodule MyAppWeb.Router do
     live "/", GroceryLive, :index
     live "/create", GroceryLive, :create
     live "/update/:id", GroceryLive, :update
+
+    live "/docs", DocExampleLive, :index
   end
 
   # Other scopes may use custom stacks.
